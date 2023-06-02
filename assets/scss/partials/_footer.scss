@@ -1,0 +1,10 @@
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    p {
+    @include fontLittle;
+    margin-bottom: 16px;
+    color: #BAB9B7;
+    font-weight: 300;
+} }

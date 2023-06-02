@@ -1,0 +1,30 @@
+@mixin fontMain {
+    font-family: 'Inter', sans-serif;
+}
+
+@mixin fontLittle {
+    font-size: 14px;
+}
+
+@mixin fontTiny {
+    font-size: 18px;
+}
+
+@mixin fontSmall {
+    font-size: 20px;
+}
+
+@mixin fontMedium {
+    font-size: 24px;
+}
+
+@mixin fontLarge {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+@mixin fontGigante {
+    font-size: 36px;
+    font-weight: 700;
+}
+

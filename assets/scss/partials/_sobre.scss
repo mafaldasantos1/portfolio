@@ -1,0 +1,72 @@
+.texto {
+    #sectioncase {
+        @include fontSmall;
+        margin-top: 103px;
+        margin-bottom: 24px;
+        font-weight: 600;
+    }
+    p.descri {
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 140%;
+    }
+}
+
+.skills {
+    margin-bottom: 32px;
+    #sectioncase {
+        @include fontSmall;
+        margin-bottom: 24px;
+        margin-top: 40px;
+        font-weight: 600;
+    }
+
+    .listadeskills {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        padding-left: 0;
+        list-style: none;
+        }
+
+        .topic {
+                padding: 8px;
+                border-radius: 6px;
+                margin-bottom: 8px;
+                margin-right: 8px;
+                background: #E7E7E7;
+                color: $black-color
+        }
+}
+
+button.primary {
+    background: $primary-color;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-size: 16px;
+    border-radius: 12px;
+    border: 2px $primary-color;
+    width: 100%;
+    margin-bottom: 16px;
+
+    a {
+        text-decoration: none;
+        color: $white-color;
+    }
+
+    @media (min-width: $medium) {
+            width: none;
+        }
+  }
+
+  
+  button.secondary {
+    @extend .primary;
+    border: 2px solid $primary-color;
+    background: $white-color;
+    color: $primary-color;
+
+    a {
+        color: $primary-color;
+    }
+  }

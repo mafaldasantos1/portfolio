@@ -1,0 +1,33 @@
+.casestudies {
+    article {
+        margin-bottom: 50px;
+    }
+    #sectioncase {
+        @include fontSmall;
+        margin-top: 103px;
+        margin-bottom: 24px;
+        font-weight: 600;
+    }
+
+    img {
+        max-width: 100%;
+        border-radius: 10px;
+      }
+
+      figure {
+        position: relative;
+        margin: 0;
+      }
+
+      .worktitle {
+        @include fontMedium;
+        margin-top: 10px;
+        margin-bottom: 4px;
+      }
+
+      .workdescri {
+        @include fontLittle;
+        color: #8B8B8B;
+        margin-top: 0px;
+      }
+    }

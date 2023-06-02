@@ -1,0 +1,27 @@
+
+.contacts {
+    #sectioncase {
+    @include fontSmall;
+        margin-top: 103px;
+        margin-bottom: 24px;
+        font-weight: 600;
+}
+
+.listofcontacts {
+    list-style: none;
+    a {
+        text-decoration: none;
+        color: $black-color;
+        display: flex;
+        align-items: center;
+    }
+
+    li {
+        margin-bottom: 10px;
+    }
+
+    .inline {
+        margin-left: 8px;
+    }
+}
+}
