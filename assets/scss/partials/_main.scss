@@ -31,3 +31,23 @@
         margin-top: 0px;
       }
     }
+
+    .space {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    button.seta {
+        background: $white-color;
+        border: 1px solid #000000;
+        border-radius: 33px;
+        padding: 8px 20px;
+        width: 70px;
+        height: 46px;
+        left: 304px;
+        top: 619px;
+        svg {
+            color: $black-color;
+        }
+    }
