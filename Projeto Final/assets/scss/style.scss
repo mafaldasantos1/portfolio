@@ -1,0 +1,25 @@
+@import
+"partials/colors",
+"partials/functions",
+"partials/mixins",
+"partials/mediaqueries",
+//"partials/animations"
+"partials/header",
+"partials/layout",
+"partials/footer",
+"partials/contactos",
+"partials/sobre"
+;
+
+button.primary {
+    border: 1px solid #f00;
+    color: blue;
+    padding: 6px 10px;
+    font-size: 18px;
+    background: green;
+  }
+  
+  button.secondary {
+    @extend .primary;
+    background: red;
+  }
