@@ -23,6 +23,10 @@ header {
       display: inline-block;
       padding: 15px 20px;
       position: relative;
+      &.active {
+        text-decoration: $primary-color solid 2px underline;
+        text-underline-position: under;
+    }
   }
 
   a.link:after {    
@@ -32,11 +36,12 @@ header {
     display: block;
     height: 2px;
     left: 50%;
-    position: absolute;
-    background: $black-color;
+   
+    background: $primary-color;
     transition: width 0.3s ease 0s, left 0.3s ease 0s;
     width: 0;
   }
+
   a.link:hover:after { 
     width: 100%; 
     left: 0; 
