@@ -5,9 +5,15 @@
         margin-top: 103px;
         margin-bottom: 24px;
         font-weight: 600;
+        @media (min-width: $medium) {
+            margin-left: 160px;
+            }
 }
 
 .listofcontacts {
+    @media (min-width: $medium) {
+        margin-left: 160px;
+        }
     list-style: none;
     a {
         text-decoration: none;

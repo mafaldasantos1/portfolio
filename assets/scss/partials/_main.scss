@@ -1,4 +1,10 @@
 .casestudies {
+
+    @media (min-width: $medium) {
+        margin-right: 160px;
+        margin-left: 160px;
+      }
+      
     article {
         margin-bottom: 50px;
     }

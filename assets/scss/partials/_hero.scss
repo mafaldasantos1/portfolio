@@ -1,5 +1,9 @@
 .presentation {
     margin-top: 60px;
+    @media (min-width: $medium) {
+        margin-right: 160px;
+        margin-left: 160px;
+      }
     .inline {
         display: flex;
         align-items: center;
@@ -8,11 +12,18 @@
         @include fontLittle;
         color: $primary-color;
         margin-right: 8px;
+        @media (min-width: $medium) {
+            @include fontSmall;
+        }
     }
     p.hello {
     @include fontTiny;
     text-align: left;
     margin: 0;
+    @media (min-width: $medium) {
+        @include fontMedium;
+        font-weight: 400;
+    }
     }
 
     p.me {
@@ -23,5 +34,9 @@
     text-align: left;
     margin-top: 8px;
     margin-bottom: 8px;
+    width: 80%;
+    @media (min-width: $medium) {
+        font-size: 96px;
   }
+}
 }
