@@ -5,6 +5,6 @@ footer {
     p {
     @include fontLittle;
     margin-bottom: 16px;
-    color: #BAB9B7;
+    color: $black-color;
     font-weight: 300;
 } }
