@@ -11,10 +11,41 @@ header {
         @include fontTiny;
         padding: 24px;
     }
-    a {
+
+    a.heading {
+      text-decoration: none;
+      color: $black-color;
+    }
+
+    a.link {
         text-decoration: none;
         color: $black-color;
-    }
+      display: inline-block;
+      padding: 15px 20px;
+      position: relative;
+  }
+
+  a.link:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: $black-color;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+  a.link:hover:after { 
+    width: 100%; 
+    left: 0; 
+  }
+
+
+  /* a partir daqui */
+  
+
     .logo {
     @include fontSmall;
     text-decoration: none;
