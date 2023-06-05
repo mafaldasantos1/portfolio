@@ -62,7 +62,7 @@ article {
 
 #teammates,#timespan {
     .p2  {
-        font-size: 16px;
+        font-size: rem(16px);
         font-weight: 300;
         padding-right: 5px;
     }
@@ -75,7 +75,7 @@ article {
         width: 70%;
         }
     p {
-        font-size: 16px;
+        font-size: rem(16px);
         font-weight: 300;
         line-height: 140%;
     }

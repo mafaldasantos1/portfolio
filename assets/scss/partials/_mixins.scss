@@ -3,28 +3,28 @@
 }
 
 @mixin fontLittle {
-    font-size: 14px;
+    font-size: rem(14px);
 }
 
 @mixin fontTiny {
-    font-size: 18px;
+    font-size: rem(18px);
 }
 
 @mixin fontSmall {
-    font-size: 20px;
+    font-size: rem(20px);
 }
 
 @mixin fontMedium {
-    font-size: 24px;
+    font-size: rem(24px);
 }
 
 @mixin fontLarge {
-    font-size: 32px;
+    font-size: rem(32px);
     font-weight: 700;
 }
 
 @mixin fontGigante {
-    font-size: 36px;
+    font-size: rem(36px);
     font-weight: 700;
 }
 
