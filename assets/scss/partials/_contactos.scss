@@ -1,4 +1,6 @@
-
+main {
+    min-height: 70vh;
+}
 .contacts {
     #sectioncase {
     @include fontSmall;
@@ -11,8 +13,10 @@
 }
 
 .listofcontacts {
+    margin-top: 100px;
     @media (min-width: $medium) {
         margin-left: 160px;
+        margin-top: 150px;
         }
     list-style: none;
     a {

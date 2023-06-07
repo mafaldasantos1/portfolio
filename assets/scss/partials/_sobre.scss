@@ -3,22 +3,37 @@
         margin-right: 160px;
         margin-left: 160px;
       }
+      figure {
+        display: flex;
+        justify-content: center;
+        
+      }
+    img {
+        height:200px ;
+        width: fit-content;
+        box-shadow: 0px 3px 20px #cacbd2;
+        object-fit: cover;
+        @media (min-width: $medium) {
+            width: 100%;
+            height: auto;
+          }
+}
 }
 
 .texto {
     #sectioncase {
         @include fontSmall;
-        margin-top: 103px;
+        margin-top: 60px;
         margin-bottom: 24px;
         font-weight: 600;
     }
     p.descri {
-        font-size: 16px;
-        font-weight: 300;
+        @include fontSmall;
+        font-weight: 400;
         line-height: 140%;
         width: 90%;
         @media (min-width: $medium) {
-            width: 70%;
+            width: 80%;
         }
     }
 }
