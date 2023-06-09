@@ -14,6 +14,12 @@ main {
 
 .listofcontacts {
     margin-top: 100px;
+
+    .inline {
+        @include fontSmall;
+        margin-left: 8px;
+    }
+    
     @media (min-width: $medium) {
         margin-left: 160px;
         margin-top: 150px;
@@ -30,8 +36,5 @@ main {
         margin-bottom: 10px;
     }
 
-    .inline {
-        margin-left: 8px;
-    }
 }
 }

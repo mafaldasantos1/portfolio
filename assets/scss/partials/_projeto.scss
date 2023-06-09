@@ -29,7 +29,7 @@ article {
 
 .h2 h2 {
     @include fontSmall;
-    font-weight: 500;
+    font-weight: 600;
 }
   .fbaul {
     display: grid;
@@ -63,7 +63,7 @@ article {
 
 #teammates,#timespan {
     .p2  {
-        font-size: rem(16px);
+        @include fontSmall;
         font-weight: 400;
         padding-right: 5px;
         width: 90%;
@@ -77,7 +77,7 @@ article {
         width: 70%;
         }
     p {
-        font-size: rem(16px);
+        @include fontSmall;
         font-weight: 400;
         line-height: 140%;
     }
